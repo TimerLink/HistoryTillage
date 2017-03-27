@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.edu.hit.gpcs:gpcs-server:0.0.23-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.edu.hit.gpcs/gpcs-server/0.0.23-SNAPSHOT/25f16b5f45b053b3d49f50326905f8b785d95a33/gpcs-server-0.0.23-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.edu.hit.gpcs/gpcs-server/0.0.23-SNAPSHOT/bb53bf7931107ce266f19576db80fd6748539d93/gpcs-server-0.0.23-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

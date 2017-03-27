@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="GradleLearn:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="cn.edu" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.2.8" level="project" />
+    <orderEntry type="library" name="Gradle: args4j:args4j:2.33" level="project" />
+    <orderEntry type="library" name="Gradle: cn.edu.hit.gpcs:gpcs-commons:0.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: cn.edu.hit.gpcs:gpcs-server:0.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: cn.edu.hit.gpcs:gpcs-graphics:0.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-dbcp2:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.sql2o:sql2o:1.5.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-pool2:2.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+  </component>
+</module>

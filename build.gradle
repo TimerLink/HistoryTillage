@@ -1,0 +1,59 @@
+group 'cn.edu'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'core.Main'
+
+sourceCompatibility = 1.8
+
+Properties keys = new Properties()
+keys.load(new FileInputStream('./.keys'))
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+
+    maven {
+        url 'https://raw.githubusercontent.com/ppoffice/GPCS.Library/mvn'
+        credentials {
+            username = 'x-oauth-basic'
+            password = keys['github']
+        }
+        authentication {
+            basic(BasicAuthentication)
+        }
+    }
+    maven {
+        url 'https://raw.githubusercontent.com/ppoffice/GPCS.Library/mvn/snapshot'
+        credentials {
+            username = 'x-oauth-basic'
+            password = keys['github']
+        }
+        authentication {
+            basic(BasicAuthentication)
+        }
+    }
+}
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.guava:guava:19.0'
+    compile 'com.alibaba:fastjson:1.2.8'
+    compile 'args4j:args4j:2.33'
+    compile 'cn.edu.hit.gpcs:gpcs-commons:0.0.23-SNAPSHOT'
+    compile 'cn.edu.hit.gpcs:gpcs-server:0.0.23-SNAPSHOT'
+    compile 'cn.edu.hit.gpcs:gpcs-graphics:0.0.23-SNAPSHOT'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.0'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.11'
+}
